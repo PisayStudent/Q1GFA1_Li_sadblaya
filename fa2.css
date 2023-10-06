@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: bisque;
+}
+.menubar{
+    border: 1px solid black;
+    height: 5vh;
+    background-color: rgb(45, 27, 2);
+}
+.productname{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 15px;
+    background-color: rgb(45, 27, 2);
+    color: antiquewhite;
+    font-family: 'Young Serif', serif;
+    font-size: large;
+}
+.linkgrp{
+    display: inline-block;
+    margin-top: 3px;
+    margin-right: 15px;
+    float: right;
+    background-color: rgb(45, 27, 2);
+}
+.linkgrp a{
+    background-color: rgb(45, 27, 2);
+}
+.linkgrp img{
+    width: 25px;
+    height: 25px;
+}
+#fb:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 10px;
+}
+#twit:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 10px;
+}
+#insta:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 10px;
+}
+#reddit:hover{
+    opacity: 1;
+    transition: .4s;
+    padding: 10px;
+}
+.container{
+    text-align: center;
+    margin-top: 25px;
+}
+.container div{
+    min-height: 40vh;
+}
+.sidelinks{
+    display: inline-block;
+    border: 1px solid black;
+    margin-left: 10px;
+    width: 10vw;
+    float: left;
+    background-color: rgb(182, 147, 98);
+}
+.sidelinks a{
+    border: 1px solid rgb(186, 155, 90);
+    border-radius: 5px;
+    background-color: rgb(255, 222, 177);
+    display: block;
+    margin-top: 50px;
+    font-family: 'Young Serif', serif;
+    text-decoration: none;
+    color: rgb(55, 26, 2);
+}
+.centerblock{
+    display: inline-block;
+    border: 1px solid black;
+    width: 68vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    text-align: start;
+    font-family: 'Young Serif', serif;
+}
+.centerblock p{
+    font-family: 'Playfair Display', serif;
+}
+.centerblock img{
+    width: 68vw;
+    margin-top: 10px;
+    margin-bottom: 1vh;
+}
+.filler{
+    display: inline-block;
+    border: 1px solid black;
+    margin-right: 10px;
+    width: 15vw;
+    float: right;
+    background-color: rgb(219, 165, 90);
+    font-family: 'Playfair Display', serif;
+}
+.filler img{
+    width: 12.5vw;
+}
+.filler p{
+    margin-top: 5px;
+    background-color: rgb(255, 207, 141);
+}
